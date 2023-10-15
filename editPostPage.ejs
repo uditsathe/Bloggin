@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+<body id="composeBody" class="animBG3">
+    <div class="text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none " href="/" method="get">Bloggin</a>
+    </div>
+    <form class="compose-form" action="/posts/<%=post._id%>/edit" method="post">
+        <h2 class="compose-page-title composePageText">Edit</h2>
+        <div class="form-group">
+            <label class="composePageText">Title</label>
+            <textarea class="newPostTitle form-control " name="updateTitle" rows="1"><%=post.title%></textarea>
+            <label class="composePageText">Post</label>
+            <textarea class="newPostTextBox form-control newPostContent" name="updateContent" rows="5"
+                cols="30"><%=post.content%></textarea>
+
+        </div>
+        <div id="deleteOrChangeDiv">
+            <button class="compose-btn btn btn-primary composePageText publishBTN" type="submit" name="button">Make
+                Changes</button>
+            <button class="compose-btn btn btn-primary composePageText publishBTN" action="/posts/<%=post._id%>/delete"
+                method="post" name="button">Delete Post</button>
+        </div>
+    </form>
+
+    <script src="../models/compose.js"></script>
+</body>
+<%- include("partials/footer"); -%>

@@ -1,0 +1,23 @@
+<%- include("partials/header"); -%>
+
+<body id="composeBody" class="animBG3">
+  <div class="text-center">
+    <a class="blog-header-logo text-body-emphasis text-decoration-none " href="/" method="get">Bloggin</a>
+  </div>
+  <form class="compose-form" action="/compose" method="post" enctype="multipart/form-data">
+    <h2 class="compose-page-title composePageText">Compose</h2>
+    <div class="form-group">
+      <label class="composePageText">Title</label>
+      <input class="newPostTitle form-control newPostTitle" type="text" name="title">
+      <label class="composePageText">Post</label>
+      <textarea class="newPostTextBox form-control newPostContent" name="content" rows="5" cols="30"></textarea>
+      <label for="ThumbnailPhotoBTN" class="composePageText">Maybe upload a thumbnail ?</label>
+      <input type="file" class="newPostImg" id="ThumbnailPhotoBTN" name="photo" accept="image/*"
+        class="composePageText newThumbnailform-control">
+    </div>
+    <button class="compose-btn btn btn-primary composePageText publishBTN" type="submit" name="button">Publish</button>
+  </form>
+
+  <script src="../models/compose.js"></script>
+</body>
+<%- include("partials/footer"); -%>
