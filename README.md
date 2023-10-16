@@ -11,18 +11,18 @@ It is a full-stack web application employing **MongoDB, Mongoose, Embedded JavaS
 ### CRUD operations
 The project is constructed using Mongo DB with the help of Mongoose.
 It has in its functionality, leveraged the CRUD operations, namely-
---*Create- Upon registering of new users and publishing of new blog posts.
---*Read- Blog posts are fetched according to no. of views and recency from the **Posts** collection and users are fetched from the **Users** collection of the **BLOGGINdatabase**
---*Update- Upon updation of blog posts or user account information update is performed on the respective items in their particular collections
---*Delete- Deletion of posts and accounts from the database is doable through edit post and account settings pages respectively.
+..* Create- Upon registering of new users and publishing of new blog posts.
+..* Read- Blog posts are fetched according to no. of views and recency from the **Posts** collection and users are fetched from the **Users** collection of the **BLOGGINdatabase**
+..* Update- Upon updation of blog posts or user account information update is performed on the respective items in their particular collections
+..* Delete- Deletion of posts and accounts from the database is doable through edit post and account settings pages respectively.
 
 ### Authentication
 In the website backend, an elaborate system of user authenticated using **JWT (JSON Web Token)**. It has been deployed, in various processes like editting and composing of blog posts, editing account and accessing user credentials and deleting any post.
 
 The implementation has 3 key steps to ensure security-
---*Salt unique to individual user is saved on the database
---*User passwords are saved upon encryption using JWT
---*Upon request to login password is decrypted and only then compared
+..* Salt unique to individual user is saved on the database
+..* User passwords are saved upon encryption using JWT
+..* Upon request to login password is decrypted and only then compared
 
 
 ## 2. The Frontend
