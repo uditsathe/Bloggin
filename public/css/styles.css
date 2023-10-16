@@ -1,0 +1,414 @@
+/* FOLLOWING SECTION IS THE STYLE FOR POST PAGE*/
+
+.postPageNavbar{
+    margin-bottom: 40px;
+  }
+  #postDiv .likeIcon{
+  margin-top:20px;
+  margin-bottom:20px;
+  width:30px;
+  }
+  
+  #postDiv .likeIcon{
+    /* margin-top:15px; */
+    width:40px;
+    margin-bottom:15px;
+  }
+  
+  .likePostBTN:active{/*gives behaviour when clicked*/
+  background-color: red;
+  width:20px;
+  margin-bottom:25px;
+  }
+  .postDivContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:max-content;
+  }
+  #postDiv{
+    position:relative;
+    height:80vh;
+    width:85%;
+  }
+  .postThumbnail{
+    width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+  }
+  #postLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #authorInfo{
+    display:flex;
+  }
+  #authorInfo a{
+    text-decoration: none;
+    color: black;
+  }
+  #likeAndEdit{
+    display:flex;
+    align-items: center;
+    gap:20px;
+  }
+  #editPostBTN{
+    padding-top:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:30px;
+  }
+  #deletePostBTN{
+    /* margin-top:20px; */
+    margin-bottom:20px;
+    width:30px;
+  }
+  #deleteBTNSpace{
+    margin-bottom:20px;
+  }
+  #deleteLink{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+  }
+ .postPageBody{
+ min-height:100%;
+
+ }
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /* FOLLOWING SECTION IS THE STYLE FOR COMPOSE PAGE*/
+  .compose-page-logo{
+    margin:40px auto 40px auto;
+  }
+  .composePageText{
+    font-family:"Jost";
+  }
+  .compose-form{
+    width: 80%;
+    margin:auto;
+  }
+  .newPostTextBox{
+    margin-bottom:50px;
+  }
+  .compose-btn{
+    margin-top:20px;
+    margin-bottom:30px;
+  }
+  body{
+    background-size:100% 250%;
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  
+  
+  /* FOLLOWING SECTION IS THE STYLE FOR LOGIN AND REGISTER PAGE*/
+  
+  .login_button{
+    margin-top:30px;
+  }
+  .div_with_login_box{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:40px;
+  }
+  .login_reg_box{
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
+  }
+  #registerLinkBox{
+    display:flex;
+    justify-content: left;
+    gap:5px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  #arrowRegisterBTN{
+    width:15px;
+  }
+  #registerLinkBox a{
+    color:black;
+  }
+  /* #loginRegisterBox{
+    align-items: center;
+  } */
+  .registerFormField{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  /*---------------------------------------------------------------------------------------------*/
+  
+  .animBG1 {
+    background: linear-gradient(48deg, #27af8c, #438de5, #c9e543);
+    background-size: 600% 600%;
+  
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+  }
+  
+  .animBG2 {
+    background: linear-gradient(48deg, #fb966a, #ffe7a4, #55ebf5);
+    background-size: 600% 600%;
+  
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+  }
+  
+  .animBG3 {
+    background: linear-gradient(48deg, #f9beff, #f6f2a0, #aafccf);
+      background-size: 600% 600%;
+  
+      -webkit-animation: AnimationName 23s ease infinite;
+      -moz-animation: AnimationName 23s ease infinite;
+      animation: AnimationName 23s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:96% 0%}
+      50%{background-position:5% 100%}
+      100%{background-position:96% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:96% 0%}
+      50%{background-position:5% 100%}
+      100%{background-position:96% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:96% 0%}
+      50%{background-position:5% 100%}
+      100%{background-position:96% 0%}
+  }
+  
+  .animBG2D {
+    background: linear-gradient(270deg, #6b0875, #881700, #015728, #0b2918);
+    background-size: 800% 800%;
+  
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+  }
+  
+  .animBG3D {
+    background: linear-gradient(270deg, #6b0875, #797901, #013457, #0b2918);
+    background-size: 800% 800%;
+  
+    -webkit-animation: AnimationName 31s ease infinite;
+    -moz-animation: AnimationName 31s ease infinite;
+    animation: AnimationName 31s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 26%}
+    50%{background-position:100% 75%}
+    100%{background-position:0% 26%}
+  }
+  /*---------------------------------------------------------------------------------------------*/
+  
+  /* FOLLOWING SECTION IS THE STYLE FOR SOME COMMON ELEMENTS IN ALL THE PAGES*/
+  
+  body{
+    height: 100vh;
+  }
+  .blog-header-logo{
+    font:"Jost";
+  }
+    /* followin is the applied external css for the template, above were the inline css components that i mentioned externally */
+  
+  
+    
+    .blog-header-logo {/*the following content styles the blog haeder the main name logo when we don't hover over it*/
+      font-family: "Jost";
+      font-weight:600;
+      font-style: italic;
+      font-size: 2.25rem;
+    }
+    
+    .blog-header-logo:hover {/*the followingcontent styles the blog haeder the main name logo when we DO hover over it*/
+      font-family:"Jost";
+      font-weight: 900;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family:"Jost";
+      /* font-family: "Playfair Display", Georgia, "Times New Roman", serifrtl:Amiri, Georgia, "Times New Roman", serif; */
+    }
+    
+    .flex-auto {
+      flex: 0 0 auto;
+    }
+    
+    .h-250 { height: 250px; }
+    @media (min-width: 768px) {
+      .h-md-250 { height: 250px; }
+    }
+    
+    /* Pagination */
+    .blog-pagination {
+      margin-bottom: 4rem;
+    }
+    
+    /*
+     * Blog posts
+     */
+    .blog-post {
+      margin-bottom: 4rem;
+    }
+    .blog-post-meta {
+      margin-bottom: 1.25rem;
+      color: #727272;
+    }
+    /*-----------------------------------------------------------------------------*/
+    footer{
+      display: flex;
+      justify-content:space-between;
+      width:100%;
+      align-items:center;
+      /* position:relative; */
+      bottom:0px;
+      padding:10px 30px;
+      margin-top: 28px;
+    
+    }
+    #footerLinks{
+      padding-bottom:5px;
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+    }
+    footer a{
+      text-decoration: none;
+      font-family: "Jost";
+      font-weight: 600;
+    }
+   .social-media-link{
+    width:20px !important;
+   }
+   /* ------------------------------------------------------------------------------------ */
+   /* PERSONAL HOME PAGE EXTRA STYLING BELOW */
+   #composeInvite{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    align-items: center;
+   }
+   #composeInvite #inviteText{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+   }
+   #composeInvite img{
+    width:2vw;
+   }
+   #composeInvite a{
+    padding:15px 30px;
+    font-weight: 700;
+    color: black;
+   }
+   #composeInvite a:hover{
+    background-color: rgb(158, 158, 255);
+   }
+/* ---------------------------------------------------------------------------------------- */
+/* USER PAGE STYLING */
+#nameAndDP{
+  gap:20px;
+  width:85vw;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+#userDPimg{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+}
+#aboutMe{
+  align-items: center;
+}
+#pageContainer{
+  padding-top:50px;
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+}
+#blogCard{
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding:20px;
+}
+/* ---------------------------------------------------------------------------------------- */
+/* EDIT POST PAGE STYLING */
+#deleteOrChangeDiv{
+  display:flex;
+  justify-content: space-between;
+}
