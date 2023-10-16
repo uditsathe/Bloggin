@@ -1,0 +1,74 @@
+<%- include('partials/header') %>
+
+<body class="animBG1" id="loginRegisterBody">
+  <div class="container">
+    <header class="border-bottom lh-1 py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="link-secondary" href="#"></a>
+        </div>
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-body-emphasis text-decoration-none " href="/" method="get">Bloggin</a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <!-- <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a> -->
+          <a class="" href="#"></a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="container mt-5">
+    <h1 class="text-center">Regiter</h1>
+
+    <div class="row ">
+      <div class="col-sm-8 div_with_login_box ">
+        <div class="card login_reg_box">
+          <div class="card-body">
+
+            <!-- Makes POST request to /login route -->
+            <form action="/register" method="POST">
+              <div class="form-group registerFormField">
+                <label for="firstName">First Name</label>
+                <input type="String" class="form-control" name="firstName">
+              </div>
+              <div class="form-group registerFormField">
+                <label for="lastName">Last Name</label>
+                <input type="String" class="form-control" name="lastName">
+              </div>
+              <div class="form-group registerFormField">
+                <label for="password">Email</label>
+                <input type="email" class="form-control" name="email">
+              </div>
+              <div class="form-group registerFormField">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password">
+              </div>
+              <div class="form-group registerFormField">
+                <label class="Bio">Bio</label>
+                <textarea class="newBioTextBox form-control newBio" name="bio" rows="5" cols="30"></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Register</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- <div class="col-sm-4">
+      <div class="card">
+        <div class="card-body">
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign In with Google
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>
