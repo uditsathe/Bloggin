@@ -18,4 +18,4 @@ It is a full-stack web application employing **MongoDB, Mongoose, Embedded JavaS
 <img width="946" alt="Screenshot 2023-10-16 201444" src="https://github.com/uditsathe/Bloggin/assets/102481732/c248fc51-760a-4da7-b5de-e0be8151cef6">
 
 ### Embedded Post Thumbnails
-<img width="947" alt="Screenshot 2023-10-16 005424" src="https://github.com/uditsathe/Bloggin/assets/102481732/bcebe31c-d89a-41a3-a480-f04bc6b78c1a">
+<img width="948" alt="Screenshot 2023-10-16 005509" src="https://github.com/uditsathe/Bloggin/assets/102481732/ccfd67f0-02f3-41a6-a38e-1989c04d40a9">
